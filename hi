@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Out</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            margin: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #message {
+            margin: 20px 0;
+            color: #666;
+        }
+
+        #askButton {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #askButton:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Hey Asna!</h1>
+        <p id="message">I have something important to ask you...</p>
+        <button id="askButton" onclick="askOut()">Will you go out with me?</button>
+    </div>
+
+    <script>
+        function askOut() {
+            alert("Asna, will you be my girlfriend?");
+        }
+    </script>
+
+</body>
+</html
